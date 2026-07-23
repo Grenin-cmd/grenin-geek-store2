@@ -46,7 +46,7 @@
         <div class="card-top">
           <span class="type-label"><span class="dot"></span>${cat.label}</span>
         </div>
-        <div class="card-img">Imagem do produto</div>
+        <div class="card-img">   <img src="${p.image}" alt="${p.name}"> </div>
         <h3>${p.name}</h3>
         <p class="desc">${p.desc}</p>
         <div class="card-stats">
