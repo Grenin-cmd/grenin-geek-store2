@@ -487,7 +487,7 @@
     <div class="hero-logo"><img src="grenin-logo.png" alt="Logo Grenin Geek Store"></div>
     <p class="eyebrow">Loja de cartas &amp; colecionáveis</p>
     <h1>Grenin Geek Store</h1>
-    <p class="sub">Abra o pack, monte a coleção, jogue sem limites. Pokémon TCG, outros card games e cultura geek em um só lugar.</p>
+    <p class="sub">Pokémon TCG, outros card games e cultura geek em um só lugar.</p>
     <div class="hero-actions">
       <a class="btn-primary" href="#catalogo">Explorar catálogo</a>
       <a class="btn-ghost" href="#sobre">Conhecer a loja</a>
@@ -540,10 +540,9 @@
       <div>
         <h2>Sobre a Grenin Geek Store</h2>
         <p>
-          Somos uma loja voltada para colecionadores e jogadores: Pokémon TCG,
-          outros card games e itens de cultura geek selecionados com carinho.
-          Aqui é edite este texto com a história real da loja, o que vocês mais
-          vendem e o que torna a Grenin diferente.
+          Somos uma loja voltada para colecionadores e apreciadores: Pokémon TCG,
+          outros card games e itens de cultura geek selecionados com carinho. Seja você iniciante ou não,
+          sua jornada começa aqui na Grenin!!!
         </p>
         <div class="about-badges">
           <span>Pokémon TCG</span>
@@ -592,17 +591,17 @@
   // Categorias: cor e rótulo usados nas abas e nas bordas dos cards
   const CATEGORIES = {
     "pokemon-tcg":   { label: "Pokémon TCG",   color: "var(--type-electric)" },
-    "outros-tcg":    { label: "Outro TCG",     color: "var(--type-psychic)"  },
+    "mangás":    { label: "mangás",     color: "var(--type-psychic)"  },
     "colecionaveis": { label: "Colecionável",  color: "var(--type-fighting)" },
     "acessorios":    { label: "Acessório",     color: "var(--type-colorless)"}
   };
 
   // Lista de produtos (EXEMPLO — troque nome, categoria, código, preço e descrição)
   const PRODUCTS = [
-    { name: "Booster Box Escarlate &amp; Violeta", category: "pokemon-tcg", code: "SV03.5", price: 450, desc: "Caixa fechada, 36 pacotes." },
-    { name: "Coleção Especial ex", category: "pokemon-tcg", code: "CEX-01", price: 180, desc: "Carta ex + acessórios da coleção." },
-    { name: "Deck Temático", category: "pokemon-tcg", code: "DT-12", price: 65, desc: "Pronto para jogar, 60 cartas." },
-    { name: "Booster Pack Avulso", category: "pokemon-tcg", code: "BP-01", price: 25, desc: "Pacote lacrado, sortimento aleatório." },
+    { name: "Box Mega Luar Clefable", category: "pokemon-tcg", price: 125, desc: "Caixa fechada, 8 pacotes." },
+    { name: "Coleção Arco-Iris Evolções Prismaticas", category: "pokemon-tcg", price: 210, desc: "Caixa fechada, 10 pacotes" },
+    { name: "Blister Triplo Escuridão Absoluta", category: "pokemon-tcg", price: 42,50, desc: "3 pacotes." },
+    { name: "Blister Triplo Caos Ascendente", category: "pokemon-tcg", code: "BP-01", price: 42,50, desc: "3 pacotes" },
     { name: "Booster One Piece Card Game", category: "outros-tcg", code: "OP-07", price: 28, desc: "Pacote lacrado da última edição." },
     { name: "Deck Estrutural Yu-Gi-Oh!", category: "outros-tcg", code: "YGO-ST", price: 90, desc: "Deck completo pronto para duelar." },
     { name: "Funko Pop Pikachu", category: "colecionaveis", code: "FP-353", price: 140, desc: "Edição padrão, caixa original." },
