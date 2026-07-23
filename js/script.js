@@ -1,4 +1,4 @@
-<script>
+
   /* =========================================================
      CONFIGURAÇÃO RÁPIDA — edite só esta parte para atualizar
      o catálogo, sem mexer no design.
@@ -84,4 +84,3 @@
   });
 
   renderProducts();
-</script>
