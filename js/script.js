@@ -4,7 +4,7 @@
    ========================================================= */
 
 // Número de WhatsApp da loja (só números, com DDI 55 + DDD)
-const WHATSAPP_NUMBER = "5500000000000";
+const WHATSAPP_NUMBER = "5537999449137";
 
 // Categorias: cor e rótulo usados nas abas e nas bordas dos cards
 const CATEGORIES = {
