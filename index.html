@@ -8,14 +8,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 
 <header>
   <div class="header-inner">
     <div class="logo">
-      <div class="logo-mark"><img <img src="assets/grenin-logo.png" alt="Logo Grenin Geek Store"></div>
+      <div class="logo-mark"><img src="assets/grenin-logo.png" alt="Logo Grenin Geek Store"></div>
       <div>
         Grenin Geek Store
         <span class="small">TCG &amp; Cultura Geek</span>
@@ -27,10 +26,10 @@
 
 <section class="hero">
   <div class="wrap">
-    <div class="hero-logo"><img src="assets/grenin-logo.png" alt="Logo Grenin Geek Store">
+    <div class="hero-logo"><img src="assets/grenin-logo.png" alt="Logo Grenin Geek Store"></div>
     <p class="eyebrow">Loja de cartas &amp; colecionáveis</p>
     <h1>Grenin Geek Store</h1>
-    <p class="sub">Pokémon TCG e tudo da cultura geek em um só lugar.</p>
+    <p class="sub">Abra o pack, monte a coleção, jogue sem limites. Pokémon TCG, outros card games e cultura geek em um só lugar.</p>
     <div class="hero-actions">
       <a class="btn-primary" href="#catalogo">Explorar catálogo</a>
       <a class="btn-ghost" href="#sobre">Conhecer a loja</a>
@@ -60,7 +59,8 @@
       <button class="tab" data-filter="pokemon-tcg" style="--dotcolor: var(--type-electric)">
         <span class="dot"></span> Pokémon TCG
       </button>
-      <button class="tab" data-filter="mangas" style="--dotcolor: var(--type-psychic)">   <span class="dot"></span> Mangás 
+      <button class="tab" data-filter="outros-tcg" style="--dotcolor: var(--type-psychic)">
+        <span class="dot"></span> Outros TCGs
       </button>
       <button class="tab" data-filter="colecionaveis" style="--dotcolor: var(--type-fighting)">
         <span class="dot"></span> Colecionáveis
@@ -71,7 +71,7 @@
     </div>
 
     <div class="binder" id="binder">
-      <!-- Os cards de produto são gerados via JS a partir da lista PRODUCTS lá embaixo -->
+      <!-- Os cards de produto são gerados via JS a partir da lista PRODUCTS em js/script.js -->
     </div>
   </div>
 </section>
@@ -82,13 +82,14 @@
       <div>
         <h2>Sobre a Grenin Geek Store</h2>
         <p>
-          Somos uma loja voltada para colecionadores e apreciadores: Pokémon TCG,
-          outros card games e itens de cultura geek selecionados com carinho. Seja você iniciante ou não,
-          sua jornada começa aqui na Grenin!!!
+          Somos uma loja voltada para colecionadores e jogadores: Pokémon TCG,
+          outros card games e itens de cultura geek selecionados com carinho.
+          Aqui é edite este texto com a história real da loja, o que vocês mais
+          vendem e o que torna a Grenin diferente.
         </p>
         <div class="about-badges">
           <span>Pokémon TCG</span>
-          <span>Mangás</span>
+          <span>Outros TCGs</span>
           <span>Colecionáveis</span>
           <span>Acessórios</span>
         </div>
@@ -103,7 +104,7 @@
     <div class="footer-inner">
       <div>
         <strong style="color:var(--text)">Grenin Geek Store</strong><br>
-        Rua Argentina n 54, Bairro Novo Mundo - Cláudio MG
+        Substitua pelo endereço ou "loja 100% online"
       </div>
       <div>
         WhatsApp: <a href="#" id="footer-whats">(edite o número)</a><br>
@@ -111,7 +112,7 @@
       </div>
       <div>
         Horário de atendimento:<br>
-        Todos os dias
+        Edite aqui os dias e horários
       </div>
     </div>
     <p class="footer-legal">
@@ -120,13 +121,8 @@
     </p>
   </div>
 </footer>
-<footer>
-...
-</footer>
 
-<script src="js/products.js"></script>
 <script src="js/script.js"></script>
-
 
 </body>
 </html>
